@@ -11,7 +11,7 @@ public abstract class BaseTest {
     private WebDriver driver;
     protected WebDriver getDriver() {return driver; }
 
-    protected void navigateWeb() {driver.get("https://www.google.com/finance/?hl=en");}
+    protected void navigateWeb() {driver.get("https://demoqa.com/webtables");}
 
     @BeforeMethod
     protected void beforeTest() {
